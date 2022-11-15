@@ -1,0 +1,41 @@
+/* dai 768px in giù */
+
+@media screen and (max-width:1157px) {
+    .container{
+        max-width: 800px;
+    }
+}
+
+
+
+/* dai 720px in giù */
+
+@media screen and (max-width:818px) {
+.container{
+    width:500px
+}
+
+    .site-header{
+        mi-width: 100vw;
+    }
+
+h2{
+    width:100%;
+    text-align: center;
+}
+
+    .lessons .col{
+        width: 80%;
+
+    }
+
+    .card{
+        width:50%:
+    }
+
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
