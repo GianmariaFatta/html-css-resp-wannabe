@@ -8,7 +8,7 @@
 
 
 
-/* dai 7px in giù */
+/* dai 768px in giù */
 
 @media screen and (max-width:768px) {
 
@@ -21,6 +21,7 @@
 
 }
 
+/* dai 576px in giù */
 
 @media screen and (max-width:576px){
     .container{
@@ -48,4 +49,26 @@
 
 .col {
     margin-bottom: 20px;
+}
+
+.steps {
+    margin: 0rem 0;
+}
+.why-us{
+    background-color: #222222;
+    padding-bottom: 80px;
+    margin-bottom: 0;
+}
+
+.why-us .container{
+    padding-top: 100px;
+}
+
+.why-us .col-right {
+    width: 100%;
+}
+
+.why-us .col-left {
+    width: 100%;
+    margin-bottom: 50px;
 }
